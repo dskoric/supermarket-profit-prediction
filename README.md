@@ -1,4 +1,4 @@
-#Supermarket profit prediction
+##Supermarket profit prediction
 
 Problem description: Problem description: The CEO of a supermarket chain is considering different cities for opening a new store.
 
