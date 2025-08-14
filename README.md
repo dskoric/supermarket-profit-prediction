@@ -17,3 +17,14 @@ pip install -r requirements.txt
 ```
 In Jupiter Notebook, we run the code simply by clicking on the code and pressing Enter, or we can click on the Run button at the top of the page.
 
+
+TREBA DODATI:
+
+Showcase Learning:
+In your README, highlight:
+What you learned (e.g., "Implemented logistic regression from scratch").
+Challenges overcome.
+Real-world applications.
+
+Portfolio Optimization:
+Link the project in your LinkedIn/resume. Use GitHub Pages to create a project demo site.
