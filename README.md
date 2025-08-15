@@ -1,4 +1,4 @@
-##Supermarket profit prediction
+##Supermarket profit prediction - the linear regression project
 
 Problem description: Problem description: The CEO of a supermarket chain is considering different cities for opening a new store.
 
@@ -9,22 +9,40 @@ Problem description: Problem description: The CEO of a supermarket chain is cons
 
 We will use the data to  identify which cities may potentially give higher profits to the business.
 
-## Installation
-```bash
-git clone https://github.com/yourusername/project-name.git
-cd project-name
-pip install -r requirements.txt
-```
-In Jupiter Notebook, we run the code simply by clicking on the code and pressing Enter, or we can click on the Run button at the top of the page.
 
+# Linear Regression Project
 
-TREBA DODATI:
+Implementation of linear regression with one variable to predict restaurant profits based on city population.
 
-Showcase Learning:
-In your README, highlight:
-What you learned (e.g., "Implemented logistic regression from scratch").
-Challenges overcome.
-Real-world applications.
+## Project Structure
+- `data/`: Contains the dataset file
+- `src/`: Core implementation modules
+- `notebooks/`: Jupyter notebook with analysis
+- `tests/`: Unit tests
 
-Portfolio Optimization:
-Link the project in your LinkedIn/resume. Use GitHub Pages to create a project demo site.
+## Setup
+1. Clone the repository
+://github.com/yourusername/supermarket-profit-prediction.git
+cd supermarket-profit-prediction
+2. Create virtual environment: `python -m venv venv`
+3. Activate environment:
+   - Windows: `venv\Scripts\activate`
+   - Unix: `source venv/bin/activate`
+4. Install dependencies: `pip install -r requirements.txt`
+
+## Running the Analysis
+### Using Jupyter Notebook
+1. Make sure your virtual environment is activated:
+   - Windows: `venv\Scripts\activate`
+   - macOS/Linux: `source venv/bin/activate`
+2. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+# Run from command line with default parameters
+python main.py
+
+# Run with custom parameters
+python main.py --alpha 0.02 --iterations 2000
+
+# Make predictions for specific populations
+python main.py --predict 3.5 7.0

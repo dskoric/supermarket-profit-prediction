@@ -1,11 +1,29 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
-.env
+.venv/
+pip-log.txt
 
 # Jupyter
-.ipynb_checkpoints/
+.ipynb_checkpoints
 
-# Data (if large)
+# Data
 data/raw/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables
+.env
